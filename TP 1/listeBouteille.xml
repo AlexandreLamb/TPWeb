@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE listeBouteille SYSTEM "listeBouteille.dtd">
+<listeBouteille>
+    <bouteille>
+        <marque>Cristaline</marque>
+            <composition>
+                <ion type="positifs">calcium</ion>
+                <ion type="positifs">magnesium</ion>
+                <ion type="negatif">chlorure</ion>
+                <ion type="positifs">nitrate</ion>
+            </composition>
+        <provenance>
+            <Source>St Cyr</Source>
+            <departement>Loiret</departement>
+        </provenance>
+        <codeBarre>3274080005003</codeBarre>
+        <ph>7,45</ph>
+        <contenance>150cl</contenance>
+    </bouteille>
+
+    <bouteille>
+        <marque>Cristaline</marque>
+        <composition>
+            <ion type="positifs">calcium</ion>
+            <ion type="positifs">magnesium</ion>
+            <ion type="negatif">chlorure</ion>
+            <ion type="positifs">nitrate</ion>
+        </composition>
+        <provenance>
+            <Source>Aurèle</Source>
+            <departement>Alpes martimes</departement>
+        </provenance>
+        <codeBarre>3268840001008</codeBarre>
+        <ph>7,4</ph>
+        <contenance>50cl</contenance>
+    </bouteille>
+
+    <bouteille>
+        <marque>Volvic</marque>
+        <composition>
+            <ion type="positifs">calcium</ion>
+            <ion type="positifs">magnesium</ion>
+            <ion type="negatif">chlorure</ion>
+            <ion type="positifs">nitrate</ion>
+        </composition>
+        <provenance>
+            <Source>Volvic</Source>
+            <departement>Loiret</departement>
+        </provenance>
+        <codeBarre>3057640117008</codeBarre>
+        <ph>7</ph>
+        <contenance>150cl</contenance>
+    </bouteille>
+
+</listeBouteille>

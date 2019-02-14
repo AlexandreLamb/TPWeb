@@ -1,0 +1,47 @@
+<?xml encoding="UTF-8"?>
+
+        <!ELEMENT listeBouteille (bouteille)+>
+        <!ATTLIST listeBouteille
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT bouteille (marque,composition,provenance,codeBarre,ph,
+                contenance)>
+        <!ATTLIST bouteille
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT marque (#PCDATA)>
+        <!ATTLIST marque
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT composition (ion)+>
+        <!ATTLIST composition
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT provenance (Source,departement)>
+        <!ATTLIST provenance
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT codeBarre (#PCDATA)>
+        <!ATTLIST codeBarre
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT ph (#PCDATA)>
+        <!ATTLIST ph
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT contenance (#PCDATA)>
+        <!ATTLIST contenance
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT ion (#PCDATA)>
+        <!ATTLIST ion
+                xmlns CDATA #FIXED ''
+                type NMTOKEN #REQUIRED>
+
+        <!ELEMENT Source (#PCDATA)>
+        <!ATTLIST Source
+                xmlns CDATA #FIXED ''>
+
+        <!ELEMENT departement (#PCDATA)>
+        <!ATTLIST departement
+                xmlns CDATA #FIXED ''>
